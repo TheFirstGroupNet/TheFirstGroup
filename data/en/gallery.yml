@@ -1,0 +1,6 @@
+#################################### portfolio ###############################
+gallery:
+  enable : true
+  title : Gallery
+  gallery_dir : /photos
+  thumb : -thumb

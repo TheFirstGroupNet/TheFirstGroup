@@ -1,0 +1,9 @@
+############################# call to action ##############################
+cta:
+  enable : true
+  bg_image : "images/backgrounds/tobias-rademacher-wnF27F85ZKw-unsplash.jpg"
+  title : "Let No Man's Ghost Return To Say His Training Failed Him"
+  button:
+    enable : true
+    label : "Contact us for training"
+    link : "#contact"

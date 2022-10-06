@@ -1,0 +1,39 @@
+############################## Contact #############################
+contact:
+  enable : true
+  title : Contact Us
+  subtitle : Contact Details
+  content : Please contact us for customized training.
+
+  # Contact details
+  contact_list:
+    - icon : ti-location-pin # themify icon pack : https://themify.me/themify-icons
+      info : "Louisiana, USA"
+      link : ""
+      
+    - icon : ti-headphone-alt # themify icon pack : https://themify.me/themify-icons
+      info : "Phone: 123-456-7890"
+      link : ""
+      
+    - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
+      info : "The First Group Facebook Page"
+      link : "https://www.facebook.com/The-FIRST-Group-LLC-315371915244355/"
+
+    - icon : ti-email # themify icon pack : https://themify.me/themify-icons
+      info : "Email Matt: Mdupre@thefirstgroup.net"
+      link : "mailto:Mdupre@thefirstgroup.net"
+
+    - icon : ti-email # themify icon pack : https://themify.me/themify-icons
+      info : "Email Greg: Gkelly@thefirstgroup.net"
+      link : "mailto:Gkelly@thefirstgroup.net"
+
+
+  # Contact form
+  contact_form:
+    enable : true
+    form_action : "#" #contact form works with https://formspree.io
+    name : "Your Name"
+    email : "Your Email"
+    subject : "Subject"
+    message : "Message"
+    submit : "Submit"

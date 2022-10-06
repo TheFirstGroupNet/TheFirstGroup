@@ -1,0 +1,31 @@
+############################# feature ###################################
+feature:
+  enable : true
+  image : photos/4-5.jpg
+  title : Training and Consulting
+  content : "The FIRST Group LLC is a training and consulting company that was established in November 2012 by two professional Firemen, Matt Dupre and Greg Kelly."
+  feature_item : 
+      # feature item loop
+    - title : Goal
+      icon : ti-cup # themify icon pack : https://themify.me/themify-icons
+      content : Our Goal is to bring our real world experience to the classroom. Simple and straight to the point, we feel that this is our responsibility to the emergency preparedness and response community. 
+
+      # feature item loop
+    - title : Need
+      icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
+      content : We recognize that no matter what your discipline, your job title, or your experience level, it is imperative that you never stop learning.
+      
+      # feature item loop
+    - title : Value
+      icon : ti-money # themify icon pack : https://themify.me/themify-icons
+      content : At the FIRST Group we value people and relationships. Whether it be our clients, our staff, or our partners, we feel that everyone should be treated with respect and dignity. We appreciate and foster an environment that promotes esteem and professionalism.
+      
+      # feature item loop
+    - title : Our Team
+      icon : ti-world # themify icon pack : https://themify.me/themify-icons
+      content : Our team is compromised of experienced response personnel who have dedicated their careers to being professional and knowledgeable. Our team members hail from all disciplines. such as NOFD, FDNY, NYPD, the U.S. military, private industry, local and state emergency management entities. 
+      
+      # feature item loop
+    - title : Training the Trainers
+      icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
+      content : Together we work towards providing our clients with outstanding services that exceeds their expectations. in an effort to deliver the best services to our clients, our team is constantly seeking continuing education and professional development activities in order to keep up with the latest information, trends, procedures, and standards.

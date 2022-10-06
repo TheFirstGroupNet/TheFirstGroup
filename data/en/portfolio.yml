@@ -1,0 +1,64 @@
+#################################### portfolio ###############################
+portfolio:
+  enable : false
+  title : Gallery
+  portfolio_item :
+    # portfolio item loop
+    - name : 1
+      image : photos/1309c79a-9a0c-4866-bd58-0be56162ce32_zpsjf8pgxqv.jpg
+      categories : ["outdoor"]
+      
+    # portfolio item loop
+    - name : 2
+      image : photos/318019_325050384276508_457417835_n.jpg
+      categories : ["outdoor"]
+      
+    # portfolio item loop
+    - name : 3
+      image : photos/1601208_530187380429473_1555068069_n.jpg
+      categories : ["indoor"]
+      
+    # portfolio item loop
+    - name : 4
+      image : photos/1604403_530186037096274_651039453_n.jpg
+      categories : ["indoor"]
+      
+    # portfolio item loop
+    - name : 5
+      image : photos/1623751_530187010429510_944331896_n.jpg
+      categories : ["indoor"]
+      
+    # portfolio item loop
+    - name : 6
+      image : photos/1779959_530187173762827_2132637053_n.jpg
+      categories : ["outdoor"]
+      
+    # portfolio item loop
+    - name : 7
+      image : photos/1798595_530186260429585_1937937482_n.jpg
+      categories : ["indoor"]
+      
+    # portfolio item loop
+    - name : 8
+      image : photos/1901390_530186380429573_378739533_n.jpg
+      categories : ["outdoor"]
+      
+    # portfolio item loop
+    - name : 9
+      image : photos/1926663_530185933762951_575588867_n.jpg
+      categories : ["indoor"]
+
+    # portfolio item loop
+    - name : 10
+      image : photos/10984224_748883811893161_5121122962116014298_n.jpg
+      categories : ["outdoor"]
+
+    # portfolio item loop
+    - name : 11
+      image : photos/4-5.jpg
+      categories : ["outdoor"]
+
+    # portfolio item loop
+    - name : 12
+      image : photos/4-23.jpg
+      categories : ["outdoor"]
