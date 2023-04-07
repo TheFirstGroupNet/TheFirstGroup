@@ -56,10 +56,10 @@ name = "about"
 url = "#about"
 weight = 1
 
-[[Languages.en.menu.main]]
-name = "services"
-url = "#services"
-weight = 2
+#[[Languages.en.menu.main]]
+#name = "services"
+#url = "#services"
+#weight = 2
 
 [[Languages.en.menu.main]]
 name = "gallery"
@@ -71,10 +71,10 @@ name = "team"
 url = "#team"
 weight = 4
 
-[[Languages.en.menu.main]]
-name = "pricing"
-url = "#pricing"
-weight = 5
+#[[Languages.en.menu.main]]
+#name = "pricing"
+#url = "#pricing"
+#weight = 5
 
 [[Languages.en.menu.main]]
 name = "contact"
@@ -136,4 +136,4 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 home = "Home"
-copyright = "Copyright &copy; 2022 Designed by Brian Ladner, theme by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+copyright = "Copyright &copy; 2023 Designed by Brian Ladner, theme by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
