@@ -1,6 +1,6 @@
 ################################# funfacts ##################################
 funfacts:
-  enable : true
+  enable : false
   bg_image : "images/backgrounds/tobias-rademacher-wnF27F85ZKw-unsplash.jpg"
   counter_item:
     # counter item loop
