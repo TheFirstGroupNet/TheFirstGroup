@@ -7,5 +7,5 @@ banner:
   content : "We Bring Real World Experience to the Classroom"
   button:
     enable : true
-    label : "Services"
-    link : "#services"
+    label : "Contact Us"
+    link : "#contact"
