@@ -26,6 +26,9 @@
 	<link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
 	<link rel="icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
 
+	{{ "<!-- Umami Analytics -->" | safeHTML }}
+	<script async defer data-website-id="74376587-3b12-462b-93f3-c7447b9ee328" src="https://umami.theladners.com/umami.js"></script>
+
 	{{ with site.Params.google_analytics_id }}
 	{{ "<!-- Global Site Tag (gtag.js) - Google Analytics -->" | safeHTML }}
 	<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
