@@ -82,7 +82,7 @@ url = "#contact"
 weight = 7
 
 [[Languages.en.menu.main]]
-name = "Webmail Login"
+name = "webmail"
 url = "https://pixel.mxrouting.net/roundcube/"
 weight = 8
 
