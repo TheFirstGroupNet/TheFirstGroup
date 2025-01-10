@@ -29,6 +29,9 @@
 	<link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
 	<link rel="icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
 
+	{{ "<!-- Self-hosted Tianji Metrics -->" | safeHTML }}
+	<script async defer src="https://tianji.theladners.com/tracker.js" data-website-id="cm5rb9b4l0001i82a1st8p8gg"></script>
+
 	{{ with site.Params.google_analytics_id }}
 	{{ "<!-- Global Site Tag (gtag.js) - Google Analytics -->" | safeHTML }}
 	<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
