@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "/"
+baseURL = "https://www.thefirstgroup.net/"
 title = "The FIRST Group"
 theme = "meghna-hugo"
 timeZone = "America/Chicago"
