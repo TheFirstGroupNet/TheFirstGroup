@@ -1,6 +1,0 @@
-{{- if strings.HasPrefix .Destination "http" -}}
-  <img src="{{ .Destination | safeURL }}" {{ with .Text }} alt="{{ . }}"{{ end }} {{ with .Title}} title="{{ . }}"{{ end }} loading="lazy">
-{{- else -}}
-  {{ $img := imageConfig (add "/static" (.Destination | safeURL)) }}
-  <img src="{{ $img.RelPermalink }}" {{ with .Text }} alt="{{ . }}"{{ end }} {{ with .Title}} title="{{ . }}"{{ end }} loading="lazy" width="{{ $img.Width }}" height="{{ $img.Height }}">
-{{- end -}}
