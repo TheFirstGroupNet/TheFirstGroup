@@ -20,12 +20,8 @@ contact:
       link : "https://www.facebook.com/The-FIRST-Group-LLC-315371915244355/"
 
     - icon : ti-email # themify icon pack : https://themify.me/themify-icons
-      info : "Email Matt: Mdupre@thefirstgroup.net"
-      link : "mailto:Mdupre@thefirstgroup.net"
-
-    - icon : ti-email # themify icon pack : https://themify.me/themify-icons
-      info : "Email Greg: Gkelly@thefirstgroup.net"
-      link : "mailto:Gkelly@thefirstgroup.net"
+      info : "Email The FIRST Group: contact@thefirstgroup.net"
+      link : "mailto:contact@thefirstgroup.net"
 
 
   # Contact form
