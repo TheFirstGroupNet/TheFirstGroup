@@ -2,6 +2,7 @@
 cta:
   enable : true
   bg_image : "images/backgrounds/tobias-rademacher-wnF27F85ZKw-unsplash.jpg"
+  bg_image_webp: "images/backgrounds/tobias-rademacher-wnF27F85ZKw-unsplash.webp"
   title : "Let No Man's Ghost Return To Say His Training Failed Him"
   button:
     enable : true

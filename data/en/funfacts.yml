@@ -2,6 +2,7 @@
 funfacts:
   enable : false
   bg_image : "images/backgrounds/tobias-rademacher-wnF27F85ZKw-unsplash.jpg"
+  bg_image_webp: "images/backgrounds/tobias-rademacher-wnF27F85ZKw-unsplash.webp"
   counter_item:
     # counter item loop
     - title : "Happy Clients"

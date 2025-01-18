@@ -2,6 +2,7 @@
 banner:
   enable : true
   bg_image : "images/backgrounds/maxim-tajer-x3S1aGQNgro-unsplash.jpg"
+  bg_image_webp: "images/backgrounds/maxim-tajer-x3S1aGQNgro-unsplash.webp"
   icon : "" # themify icon pack : https://themify.me/themify-icons
   title : "The FIRST Group"
   content : "We Bring Real World Experience to the Classroom"

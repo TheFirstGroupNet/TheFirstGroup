@@ -2,6 +2,7 @@
 feature:
   enable : true
   image : photos/4-5.jpg
+  image_webp: photos/4-5.webp
   title : Training and Consulting
   content : "The FIRST Group LLC is a training and consulting company that was established in November 2012 by two professional Firemen, Matt Dupre and Greg Kelly."
   feature_item : 
