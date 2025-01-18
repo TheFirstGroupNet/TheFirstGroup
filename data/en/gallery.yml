@@ -1,6 +1,7 @@
-#################################### portfolio ###############################
+#################################### gallery ###############################
 gallery:
   enable : true
+  captions : true
   title : Gallery
   gallery_dir : /photos
   thumb : -thumb
