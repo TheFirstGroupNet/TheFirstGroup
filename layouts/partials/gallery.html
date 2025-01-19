@@ -40,11 +40,6 @@
               <div class="img" style="background-image: url('{{ if $thumbexists }}{{ $thumbURL }}{{ else }}{{ $linkURL }}{{ end }}');" >
                 <img itemprop="thumbnail" src="{{ if $thumbexists }}{{ $thumbURL }}{{ else }}{{ $linkURL }}{{ end }}" alt="{{ $caption }}" /><!-- <img> hidden if in .gallery -->
               </div>
-              {{ if false }}
-                <figcaption>
-                  <p>{{ $caption }}</p>
-                </figcaption>
-              {{ end }}
               <a href="{{ $linkURL }}" aria-label="Gallery Photo" itemprop="contentUrl"></a><!-- put <a> last so it is stacked on top -->
             </figure>
             </div>
