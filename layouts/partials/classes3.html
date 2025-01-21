@@ -1,0 +1,52 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ if $data.classes.classes.enable }}
+{{ with $data.classes.classes }}
+{{"<!-- classes -->" | safeHTML }}
+<section id="classes3" class="parallax-section section section-bg overly">
+	<div class="container">
+		<div class="row">
+			{{"<!-- section title -->" | safeHTML }}
+			<div class="col-lg-12">
+				<div class="title text-center">
+					<h2>{{ with .title }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
+						{{ with .title }} {{ after (len (index (split . " ") 0)) . | safeHTML }} {{ end }}</span></h2>
+					<div class="border-meghna"></div>
+				</div>
+			</div>
+			{{"<!-- /section title -->" | safeHTML }}
+		</div>
+		<div class="row">
+			<div class="col-lg-6">
+				<h2>{{ .content | markdownify }}</h2>
+				{{ with .image }}
+				<img class="img-fluid lozad" data-src="{{ . | absURL }}" alt="image">
+				{{ end }}
+			</div>
+			<div class="col-lg-6">
+				<ul class="skill-bar">
+					{{ $.Scratch.Set "counter" 0 }}
+					{{ range $index, $element:= .classes_table }}
+					{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+					<li>
+						<p><span>{{if lt $index 9}}0{{end}}{{$.Scratch.Get `counter`}}- </span>{{ .name }}</p>
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
+								style="width:90%">
+							</div>
+						</div>
+						{{ range .classes}}
+						{{"<!-- Single Class Item -->" | safeHTML }}
+							<p>{{ .class | markdownify }}</p>
+						{{"<!-- End Single Class Item -->" | safeHTML }}
+						{{ end }}
+						</li>
+					{{ end }}
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+{{"<!-- /classes -->" | safeHTML }}
+{{ end }}
+{{ end }}

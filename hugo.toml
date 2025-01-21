@@ -108,19 +108,19 @@ weight = 1
 #weight = 2
 
 [[Languages.en.menu.main]]
+name = "classes"
+url = "#classes"
+weight = 3
+
+[[Languages.en.menu.main]]
 name = "gallery"
 url = "#gallery"
-weight = 3
+weight = 4
 
 [[Languages.en.menu.main]]
 name = "team"
 url = "#team"
-weight = 4
-
-#[[Languages.en.menu.main]]
-#name = "pricing"
-#url = "#pricing"
-#weight = 5
+weight = 5
 
 #[[Languages.en.menu.main]]
 #name = "blog"
@@ -140,7 +140,7 @@ weight = 8
 
 ############################# Default Parameters ##########################
 [params]
-logo = "images/logo.png"
+logo = "images/TFG_logo_small.png"
 # Meta data
 description = "Responsive Multipurpose Parallax Hugo Template"
 author = "Themefisher"
@@ -155,7 +155,7 @@ post_share = true
 # preloader
 [params.preloader]
 enable = false
-preloader = "images/logo.png"
+preloader = "images/TFG_logo_small.png"
 
 # cookies
 [params.cookies]

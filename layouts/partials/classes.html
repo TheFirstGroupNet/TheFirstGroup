@@ -1,0 +1,50 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ if $data.classes.classes.enable }}
+{{ with $data.classes.classes }}
+{{"<!-- Start Classes section -->" | safeHTML}}
+<section id="classes" class="classes section">
+  <div class="container">
+    <div class="row justify-content-center">
+
+      {{"<!-- section title -->" | safeHTML}}
+      <div class="col-lg-12">
+        <div class="title text-center wow fadeInDown" data-wow-duration="500ms">
+					<h2>{{ with .title }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
+            {{ with .title }} {{ after (len (index (split . " ") 0)) . | safeHTML }} {{ end }}</span></h2>
+          <div class="border-meghna"></div>
+        </div>
+      </div>
+      {{"<!-- /section title -->" | safeHTML}}
+
+      <div class="text-center">
+          <p>{{ .content | markdownify }}</p>
+      </div>
+  
+      {{ range .classes_table }}
+      {{"<!-- single classes table -->" | safeHTML}}
+      <article class="col-lg-4 col-md-6 col-12 text-center wow fadeInUp" data-wow-duration="200ms">
+        <div class="class-block">
+
+          {{"<!-- class topic -->" | safeHTML}}
+          <div class="class-title">
+            <h3>{{ .name | markdownify }}</h3>
+          </div>
+
+          {{"<!-- class list -->" | safeHTML}}
+          <ul>
+            {{ range .classes }}
+            <li>{{ .class | markdownify }}</li>
+            {{ end }}
+          </ul>
+
+        </div>
+      </article>
+      {{"<!-- end single classes table -->" | safeHTML}}
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{"<!-- /classes -->" | safeHTML}}
+{{ end }}
+{{ end }}

@@ -1,0 +1,69 @@
+################################# classes #################################
+classes:
+  enable : true
+  title : Available Classes
+  content : These are our regularly taught courses.  We happily provide custom-designed courses to many of our clients.  Please contact us for prices and availability.
+  image : images/classroom.jpg
+  classes_table :
+    - name : Hazmat Training
+      classes : 
+        - class : Electric and Hybrid vehicles (NEW COURSE)
+          new : true
+        - class : Lithium-Ion Battery Training (NEW COURSE)
+          new : true
+        - class : Hazmat Awareness & Refresher
+        - class : Hazmat Operations & Refresher
+        - class : Hazmat Technician & Refresher
+        - class : Hazmat Incident Commander & Refresher
+        - class : Hazmat Safety Officer & Refresher
+        - class : Basic Air Monitoring & Advanced Air Monitoring
+        - class : Basics of Chemistry for the Responder
+        - class : Hazmat Team evaluation and assessment with Field Exercise
+        - class : HAZWOPER- 8hr, 24hr and 40hr
+      
+    - name : Medical Training
+      classes : 
+        - class : First Aid
+        - class : CPR & AED
+        - class : First On the Scene (NAEMT)
+        - class : Emergency Medical Responder (EMR)
+        - class : BLS (Basic Life Support)
+        - class : ACLS (Advanced Cardiac Life Support)
+        - class : PALS (Pediatric Advanced Life Support)
+        - class : Bloodborne Pathogens and Emergency Oxygen
+        - class : Epinephrine Auto Injectors
+      
+    - name : Firefighting
+      classes : 
+        - class : Combating EV & Hybrid Vehicles Fires (NEW COURSE)
+          new : true
+        - class : Fire Extinguisher
+        - class : Industrial Fire Brigade
+        - class : Forcible Entry
+        - class : Pump Operations & Aerial Operations
+        - class : Firefighter Survival
+      
+    - name : Incident Command
+      classes : 
+        - class : ICS 100 / ICS 200 / ICS 300 / ICS 400 / ICS 700 / ICS 800
+        - class : G-402 Incident Command System Overview for Executives/Senior Officials
+      
+    - name : Rescue
+      classes : 
+        - class : Rope Rescue & Refresher
+        - class : Confined Space Rescue & Refresher
+        - class : Vehicle Rescue & Refresher
+
+    - name : Safety and Security
+      classes : 
+        - class : Business Safety & Security - Active Shooter (NEW COURSE)
+          new : true
+        - class : School Safety & Security - Active Shooter (NEW COURSE)
+          new : true
+
+    - name : Law Enforcement
+      classes : 
+        - class : SWAT / SRT Team - Hazardous Material
+        - class : STAT - Specialized Tools & Tactics for forcible entry for the SWAT Team
+        - class : Decon for Law Enforcement & Decon for K9 and Horses
+      

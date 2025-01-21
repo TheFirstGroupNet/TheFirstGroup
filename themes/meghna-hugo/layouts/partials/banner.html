@@ -13,6 +13,7 @@
 			<i class="{{ .icon }}"></i>
 		</div>
 		{{ end }}
+		<img class="img-logo lozad" data-src="{{ .image | absURL }}" alt="image">
 		<h1>{{ .title | markdownify }}</h1>
 		<p>{{ .content | markdownify }}</p>
 		{{ if .button.enable }}

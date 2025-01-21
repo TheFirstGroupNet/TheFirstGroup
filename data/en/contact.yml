@@ -15,6 +15,10 @@ contact:
       info : "Phone: 123-456-7890"
       link : ""
       
+    - icon : ti-instagram # themify icon pack : https://themify.me/themify-icons
+      info : "The First Group Instagram Page"
+      link : "https://www.instagram.com/the_first_group_la/#"
+
     - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
       info : "The First Group Facebook Page"
       link : "https://www.facebook.com/The-FIRST-Group-LLC-315371915244355/"

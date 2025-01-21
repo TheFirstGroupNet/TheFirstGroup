@@ -7,7 +7,7 @@ team:
     - name : Greg Kelly
       image_webp : images/team/GregKelly.webp
       image : images/team/GregKelly.jpg
-      designation : Manager
+      designation : Owner / Instructor
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
       social :
         #- icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
@@ -22,7 +22,7 @@ team:
     - name : Matt Dupre
       image_webp : images/team/MattDupre.webp
       image : images/team/MattDupre.jpg
-      designation : CEO/Founder
+      designation : Owner / Instructor
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
       social :
         - icon : ti-email # themify icon pack : https://themify.me/themify-icons
@@ -31,7 +31,7 @@ team:
     - name : Joey Captain
       image_webp : images/team/JoeyCaptain.webp
       image : images/team/JoeyCaptain.jpg
-      designation : Manager
+      designation : Instructor
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
       social :
         - icon : ti-email # themify icon pack : https://themify.me/themify-icons
@@ -40,7 +40,7 @@ team:
     - name : Josh Fowler
       image_webp : images/team/JoshFowler.webp
       image : images/team/JoshFowler.jpg
-      designation : Manager
+      designation : Instructor
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
       social :
         - icon : ti-email # themify icon pack : https://themify.me/themify-icons
@@ -49,7 +49,7 @@ team:
     - name : Travis Katen
       image_webp : images/team/TravisKaten.webp
       image : images/team/TravisKaten.jpg
-      designation : Manager
+      designation : Instructor
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
       social :
         - icon : ti-email # themify icon pack : https://themify.me/themify-icons
@@ -58,7 +58,7 @@ team:
     - name : Allen W
       image_webp : images/team/AllenW.webp
       image : images/team/AllenW.jpg
-      designation : Manager
+      designation : Instructor
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
       social :
         - icon : ti-email # themify icon pack : https://themify.me/themify-icons
