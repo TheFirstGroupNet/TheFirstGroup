@@ -7,9 +7,9 @@ classes:
   classes_table :
     - name : Hazmat Training
       classes : 
-        - class : Electric and Hybrid vehicles (NEW COURSE)
+        - class : Electric and Hybrid vehicles
           new : true
-        - class : Lithium-Ion Battery Training (NEW COURSE)
+        - class : Lithium-Ion Battery Training
           new : true
         - class : Hazmat Awareness & Refresher
         - class : Hazmat Operations & Refresher
@@ -35,7 +35,7 @@ classes:
       
     - name : Firefighting
       classes : 
-        - class : Combating EV & Hybrid Vehicles Fires (NEW COURSE)
+        - class : Combating EV & Hybrid Vehicles Fires
           new : true
         - class : Fire Extinguisher
         - class : Industrial Fire Brigade
@@ -56,9 +56,9 @@ classes:
 
     - name : Safety and Security
       classes : 
-        - class : Business Safety & Security - Active Shooter (NEW COURSE)
+        - class : Business Safety & Security - Active Shooter
           new : true
-        - class : School Safety & Security - Active Shooter (NEW COURSE)
+        - class : School Safety & Security - Active Shooter
           new : true
 
     - name : Law Enforcement

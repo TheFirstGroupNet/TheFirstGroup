@@ -34,7 +34,11 @@
           {{"<!-- class list -->" | safeHTML}}
           <ul>
             {{ range .classes }}
-            <li>{{ .class | markdownify }}</li>
+            <li>{{ .class | markdownify }}
+              {{ if .new }}
+              <span class="class-new">(NEW COURSE)</span>
+              {{ end }}
+            </li>
             {{ end }}
           </ul>
 
