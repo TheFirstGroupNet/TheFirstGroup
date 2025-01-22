@@ -2,47 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:45633/orig_blog/simple-blog-post-8/</loc>
+    <loc>//localhost:1313/orig_blog/simple-blog-post-8/</loc>
     <lastmod>2018-09-12T14:51:12+06:00</lastmod>
   </url><url>
-    <loc>//localhost:45633/orig_blog/installation/</loc>
+    <loc>//localhost:1313/orig_blog/installation/</loc>
     <lastmod>2018-09-12T14:51:12+06:00</lastmod>
   </url><url>
-    <loc>//localhost:45633/orig_blog/</loc>
+    <loc>//localhost:1313/orig_blog/</loc>
     <lastmod>2018-09-12T14:51:12+06:00</lastmod>
   </url><url>
-    <loc>//localhost:45633/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2018-09-12T14:51:12+06:00</lastmod>
   </url><url>
-    <loc>//localhost:45633/orig_blog/simple-blog-post-1/</loc>
+    <loc>//localhost:1313/orig_blog/simple-blog-post-1/</loc>
     <lastmod>2018-09-12T12:52:36+06:00</lastmod>
   </url><url>
-    <loc>//localhost:45633/orig_blog/simple-blog-post-2/</loc>
+    <loc>//localhost:1313/orig_blog/simple-blog-post-2/</loc>
     <lastmod>2018-09-12T12:52:36+06:00</lastmod>
   </url><url>
-    <loc>//localhost:45633/orig_blog/simple-blog-post-3/</loc>
+    <loc>//localhost:1313/orig_blog/simple-blog-post-3/</loc>
     <lastmod>2018-09-12T12:52:36+06:00</lastmod>
   </url><url>
-    <loc>//localhost:45633/orig_blog/simple-blog-post-4/</loc>
+    <loc>//localhost:1313/orig_blog/simple-blog-post-4/</loc>
     <lastmod>2018-09-12T12:52:36+06:00</lastmod>
   </url><url>
-    <loc>//localhost:45633/orig_blog/simple-blog-post-5/</loc>
+    <loc>//localhost:1313/orig_blog/simple-blog-post-5/</loc>
     <lastmod>2018-09-12T12:52:36+06:00</lastmod>
   </url><url>
-    <loc>//localhost:45633/orig_blog/simple-blog-post-6/</loc>
+    <loc>//localhost:1313/orig_blog/simple-blog-post-6/</loc>
     <lastmod>2018-09-12T12:52:36+06:00</lastmod>
   </url><url>
-    <loc>//localhost:45633/orig_blog/simple-blog-post-7/</loc>
+    <loc>//localhost:1313/orig_blog/simple-blog-post-7/</loc>
     <lastmod>2018-09-12T12:52:36+06:00</lastmod>
   </url><url>
-    <loc>//localhost:45633/author/</loc>
+    <loc>//localhost:1313/author/</loc>
   </url><url>
-    <loc>//localhost:45633/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
   </url><url>
-    <loc>//localhost:45633/author/john-doe/</loc>
+    <loc>//localhost:1313/author/john-doe/</loc>
   </url><url>
-    <loc>//localhost:45633/author/mark-dinn/</loc>
+    <loc>//localhost:1313/author/mark-dinn/</loc>
   </url><url>
-    <loc>//localhost:45633/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
   </url>
 </urlset>

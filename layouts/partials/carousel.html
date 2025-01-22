@@ -17,8 +17,9 @@
 			</div>
 		</div>
 
-        <div id="carousel10" class="carousel" duration="{{ .duration }}" items="1">
+        <div id="carousel10" class="carousel" duration="{{ .duration }}">
             {{ $.Scratch.Set "index" 0 }}
+            {{ $width :=  div 100 .items}}
             <ul>
                 {{ $dir := string .gallery_dir }}
                 {{ $thumbext := string .thumb | default "-thumb" }}
@@ -36,7 +37,7 @@
                         {{- $thumb := .Name | replaceRE "(\\.)" ($thumbext | printf "%s.") }}<!-- filename of thumbnail image -->
                         {{- $thumbexists := where $files "Name" $thumb }}<!-- does a thumbnail image exist? --> 
                         {{- $thumbURL := print $dir "/" $thumb | absURL }}<!-- absolute URL to thumbnail image -->
-                        <li id="c10_slide{{ $current }}" style="min-width: calc(100%/1); padding-bottom: 50%">
+                        <li id="c10_slide{{ $current }}" style="min-width: {{ $width }}%; padding-bottom: 50%">
                             <img src="{{ if $thumbexists }}{{ $thumbURL }}{{ else }}{{ $linkURL }}{{ end }}" alt="{{ $caption }}" /></li>
                     {{- end }}
                 {{ end }}
