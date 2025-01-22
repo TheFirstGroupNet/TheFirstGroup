@@ -68,6 +68,8 @@ link = "plugins/magnific-popup/magnific-popup.css"
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
 [[params.plugins.css]]
+link = "plugins/carousel/carousel.css"
+[[params.plugins.css]]
 link = "https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap"
 [[params.plugins.css]]
 link = "https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css"
@@ -91,6 +93,8 @@ link = "plugins/lazy-load/lozad.min.js"
 link = "plugins/google-map/map.js"
 [[params.plugins.js]]
 link = "plugins/hugo-easy-gallery/load-photoswipe.js"
+[[params.plugins.js]]
+link = "plugins/carousel/carousel.js"
 [[params.plugins.js]]
 link = "https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js"
 [[params.plugins.js]]
@@ -140,7 +144,8 @@ weight = 8
 
 ############################# Default Parameters ##########################
 [params]
-logo = "images/TFG_logo_small.png"
+logo = "favicon/favicon.svg"
+#logo = "images/TFG_logo_small.png"
 # Meta data
 description = "Responsive Multipurpose Parallax Hugo Template"
 author = "Themefisher"

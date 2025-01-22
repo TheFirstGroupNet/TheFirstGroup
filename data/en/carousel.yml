@@ -1,0 +1,7 @@
+#################################### gallery ###############################
+carousel:
+  enable : true
+  title : Photo Gallery
+  gallery_dir : /photos
+  thumb : -thumb
+  duration : 3000

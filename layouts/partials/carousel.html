@@ -1,0 +1,59 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ if $data.carousel.carousel.enable }}
+{{ with $data.carousel.carousel }}
+{{"<!-- Carousel Section -->" | safeHTML}}
+<section class="portfolio section section-bg" id="carousel">
+  <div class="gallery container">
+    <div class="row ">
+			<div class="col-xl-12">
+				{{"<!-- section title -->" | safeHTML}}
+				<div class="title text-center">
+					<h2>{{ with .title }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
+						{{ with .title }} {{ after (len (index (split . " ") 0)) . | safeHTML }} {{ end }}</span></h2>
+					<div class="border-meghna"></div>
+				</div>
+				{{"<!-- /section title -->" | safeHTML}}
+			</div>
+		</div>
+
+        <div id="carousel10" class="carousel" duration="{{ .duration }}" items="1">
+            {{ $.Scratch.Set "index" 0 }}
+            <ul>
+                {{ $dir := string .gallery_dir }}
+                {{ $thumbext := string .thumb | default "-thumb" }}
+                {{ $baseURL := .Site.BaseURL }}
+                {{ $files := readDir (print "/static" $dir) }}
+                {{ range $files }}
+                    <!-- skip files that aren't images, or that include the thumb suffix in their name -->
+                    {{- $isthumb := .Name | findRE ($thumbext | printf "%s\\.") }}<!-- is the current file a thumbnail image? -->
+                    {{- $isimg := lower .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp|webp|avif|jxl)" }}<!-- is the current file an image? -->
+                    {{- if and $isimg (not $isthumb) }}
+                        {{ $.Scratch.Add "index" 1 }}
+                        {{ $current := $.Scratch.Get "index" }}
+                        {{- $caption :=  .Name | replaceRE "\\..*" "" | humanize }}<!-- humanized filename without extension -->
+                        {{- $linkURL := print $dir "/" .Name | absURL }}<!-- absolute URL to hi-res image -->
+                        {{- $thumb := .Name | replaceRE "(\\.)" ($thumbext | printf "%s.") }}<!-- filename of thumbnail image -->
+                        {{- $thumbexists := where $files "Name" $thumb }}<!-- does a thumbnail image exist? --> 
+                        {{- $thumbURL := print $dir "/" $thumb | absURL }}<!-- absolute URL to thumbnail image -->
+                        <li id="c10_slide{{ $current }}" style="min-width: calc(100%/1); padding-bottom: 50%">
+                            <img src="{{ if $thumbexists }}{{ $thumbURL }}{{ else }}{{ $linkURL }}{{ end }}" alt="{{ $caption }}" /></li>
+                    {{- end }}
+                {{ end }}
+            </ul>
+            <ol>
+                {{ $current := $.Scratch.Get "index" }}
+                {{ range seq $current }}
+                  <li><a href="#c10_slide{{ . }}"></a></li>
+                {{ end }}
+            </ol>
+                <div class="prev">&lsaquo;</div>
+            <div class="next">&rsaquo;</div>
+        </div>
+
+
+</div>
+</section>
+{{"<!-- /Carousel -->" | safeHTML}}
+{{ end }}
+{{ end }}
