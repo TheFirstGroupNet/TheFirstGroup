@@ -9,24 +9,24 @@ feature:
       # feature item loop
     - title : Goal
       icon : ti-cup # themify icon pack : https://themify.me/themify-icons
-      content : Our Goal is to bring our real world experience to the classroom. Simple and straight to the point, we feel that this is our responsibility to the emergency preparedness and response community. 
+      content : Our Goal is to bring our real-world experience to the classroom. Simply put, we feel this is our responsibility to the emergency preparedness and response community. 
 
       # feature item loop
     - title : Need
       icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
-      content : We recognize that no matter what your discipline, your job title, or your experience level, it is imperative that you never stop learning.
+      content : We recognize that no matter your discipline, job title, or experience level, it is imperative that you never stop learning.
       
       # feature item loop
     - title : Value
-      icon : ti-money # themify icon pack : https://themify.me/themify-icons
-      content : At The FIRST Group we value people and relationships. Whether it be our clients, our staff, or our partners, we feel that everyone should be treated with respect and dignity. We appreciate and foster an environment that promotes esteem and professionalism.
+      icon : ti-user # themify icon pack : https://themify.me/themify-icons
+      content : At The FIRST Group we value people and relationships. From our clients, to our staff, to our partners, we feel that everyone should be treated with respect and dignity. We appreciate and foster an environment that promotes esteem and professionalism.
       
       # feature item loop
     - title : Our Team
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : Our team is compromised of experienced response personnel who have dedicated their careers to being professional and knowledgeable. Our team members hail from all disciplines. such as NOFD, FDNY, NYPD, the U.S. military, private industry, local and state emergency management entities. 
+      content : Our team is compromised of experienced response personnel who have dedicated their careers to being professional and knowledgeable. Our team members hail from many disciplines, such as NOFD, FDNY, NYPD, the U.S. military, private industry, and local and state emergency management entities. 
       
       # feature item loop
     - title : Training the Trainers
       icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
-      content : Together we work towards providing our clients with outstanding services that exceeds their expectations. in an effort to deliver the best services to our clients, our team is constantly seeking continuing education and professional development activities in order to keep up with the latest information, trends, procedures, and standards.
+      content : Together we work towards providing our clients with outstanding services that exceed their expectations. In an effort to deliver the best services to our clients, our team is constantly seeking continuing education and professional development activities in order to keep up with the latest information, trends, procedures, and standards.
