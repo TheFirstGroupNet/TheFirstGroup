@@ -116,13 +116,15 @@ a:hover {
 
 .btn-transparent {
   border: 1px solid #4e595f;
+  font-family: none;
+  text-transform: uppercase;
 }
 
 .btn-transparent:hover,
 .btn-transparent:focus {
   background-color: #ff0000;
   border: 1px solid transparent;
-  color: #000;
+  color: #fff;
 }
 
 .border-meghna {
@@ -225,9 +227,10 @@ a:hover {
 
 .btn-main {
   background: #ff0000;
-  color: #000;
+  color: #fff;
   display: inline-block;
-  font-size: 14px;
+  font-family: none;
+  font-size: 16px;
   letter-spacing: 1px;
   padding: 10px 35px;
   text-transform: uppercase;
@@ -732,7 +735,9 @@ a:hover {
 #contact-submit {
   border: 1px solid rgba(236, 239, 241, 0.07);
   background: #ff0000;
-  color: #000;
+  color: #fff;
+  font-family: none;
+  text-transform: uppercase;
   padding: 12px 0;
   width: 100%;
   margin: 0;
@@ -741,6 +746,7 @@ a:hover {
 #contact-submit:hover {
   border-color: #fff;
   background-color: #fff;
+  color: #000;
 }
 
 .form-meghna ::placeholder {
