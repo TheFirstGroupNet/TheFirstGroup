@@ -25,26 +25,26 @@
       {{ $baseURL := .Site.BaseURL }}
       {{ $files := readDir (print "/static" $dir) }}
       {{ range $files }}
-      <!-- skip files that aren't images, or that include the thumb suffix in their name -->
-      {{- $isthumb := .Name | findRE ($thumbext | printf "%s\\.") }}<!-- is the current file a thumbnail image? -->
-      {{- $isimg := lower .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp|webp|avif|jxl)" }}<!-- is the current file an image? -->
-      {{- if and $isimg (not $isthumb) }}
-          {{- $caption :=  .Name | replaceRE "\\..*" "" | humanize }}<!-- humanized filename without extension -->
-          {{- $linkURL := print $dir "/" .Name | absURL }}<!-- absolute URL to hi-res image -->
-          {{- $thumb := .Name | replaceRE "(\\.)" ($thumbext | printf "%s.") }}<!-- filename of thumbnail image -->
-          {{- $thumbexists := where $files "Name" $thumb }}<!-- does a thumbnail image exist? --> 
-          {{- $thumbURL := print $dir "/" $thumb | absURL }}<!-- absolute URL to thumbnail image -->
-          <div class="col-lg-4 col-md-6 shuffle-item">
-    				<div class="gallery-block mb-4">
-            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-              <div class="img" style="background-image: url('{{ if $thumbexists }}{{ $thumbURL }}{{ else }}{{ $linkURL }}{{ end }}');" >
-                <img itemprop="thumbnail" src="{{ if $thumbexists }}{{ $thumbURL }}{{ else }}{{ $linkURL }}{{ end }}" alt="{{ $caption }}" /><!-- <img> hidden if in .gallery -->
+        <!-- skip files that aren't images, or that include the thumb suffix in their name -->
+        {{- $isthumb := .Name | findRE ($thumbext | printf "%s\\.") }}<!-- is the current file a thumbnail image? -->
+        {{- $isimg := lower .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp|webp|avif|jxl)" }}<!-- is the current file an image? -->
+        {{- if and $isimg (not $isthumb) }}
+            {{- $caption :=  .Name | replaceRE "\\..*" "" | humanize }}<!-- humanized filename without extension -->
+            {{- $linkURL := print $dir "/" .Name | absURL }}<!-- absolute URL to hi-res image -->
+            {{- $thumb := .Name | replaceRE "(\\.)" ($thumbext | printf "%s.") }}<!-- filename of thumbnail image -->
+            {{- $thumbexists := where $files "Name" $thumb }}<!-- does a thumbnail image exist? --> 
+            {{- $thumbURL := print $dir "/" $thumb | absURL }}<!-- absolute URL to thumbnail image -->
+            <div class="col-lg-4 col-md-6 shuffle-item">
+              <div class="gallery-block mb-4">
+              <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <div class="img" style="background-image: url('{{ if $thumbexists }}{{ $thumbURL }}{{ else }}{{ $linkURL }}{{ end }}');" >
+                  <img itemprop="thumbnail" src="{{ if $thumbexists }}{{ $thumbURL }}{{ else }}{{ $linkURL }}{{ end }}" alt="{{ $caption }}" /><!-- <img> hidden if in .gallery -->
+                </div>
+                <a href="{{ $linkURL }}" aria-label="Gallery Photo" itemprop="contentUrl"></a><!-- put <a> last so it is stacked on top -->
+              </figure>
               </div>
-              <a href="{{ $linkURL }}" aria-label="Gallery Photo" itemprop="contentUrl"></a><!-- put <a> last so it is stacked on top -->
-            </figure>
             </div>
-          </div>
-      {{- end }}
+        {{- end }}
       {{ end }}
     </div>
   </div>

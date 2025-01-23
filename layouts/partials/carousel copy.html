@@ -39,11 +39,7 @@
 										{{- $thumbexists := where $files "Name" $thumb }}<!-- does a thumbnail image exist? --> 
 										{{- $thumbURL := print $dir "/" $thumb | absURL }}<!-- absolute URL to thumbnail image -->
 										<li id="c10_slide{{ $current }}" style="min-width: {{ $width }}%; padding-bottom: 50%">
-											<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-												<img itemprop="thumbnail" src="{{ if $thumbexists }}{{ $thumbURL }}{{ else }}{{ $linkURL }}{{ end }}" alt="{{ $caption }}" /><!-- <img> hidden if in .gallery -->
-												<a href="{{ $linkURL }}" aria-label="Gallery Photo" itemprop="contentUrl"></a><!-- put <a> last so it is stacked on top -->
-											</figure>
-										</li>
+												<img src="{{ if $thumbexists }}{{ $thumbURL }}{{ else }}{{ $linkURL }}{{ end }}" alt="{{ $caption }}" /></li>
 								{{- end }}
 						{{ end }}
 				</ul>

@@ -1,7 +1,6 @@
 #################################### gallery ###############################
 gallery:
   enable : false
-  captions : true
-  title : Gallery
+  title : Photo Gallery
   gallery_dir : /photos
   thumb : -thumb
